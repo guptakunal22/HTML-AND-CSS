@@ -1,0 +1,65 @@
+
+@font-face {
+	src: url(Fonts/Raphtalia-DEMO.ttf);
+	font-family: rap;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+p {
+	border:8px ridge red; /*size type color*/
+	background-color:yellow;
+	width:250px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+} 
+
+h2 {
+	font-family: rap;
+	color: aqua;
+}
+
+.grid{
+	display:grid; 
+	
+	grid-template-columns: 20px ;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"Footer Footer"
+	"Header Header"
+	"Sidebar Content"
+	"Title Title"
+}
+
+.Title {
+	grid-area: Title;
+	font-family: rap;
+	font-size: 40px;
+	border: 20px ridge red; /*size type color*/
+	background-color:yellow;
+	/*width:250px;*/
+}
+
+.Header {
+	grid-area: Header;
+}
+
+.Sidebar {
+	grid-area: Sidebar;	
+}
+
+.Content {
+	grid-area: Content;
+}
+
+.Footer {
+	grid-area: Footer;
+}
+
+.grid div:nth-child(even){
+	background-color:greenyellow;
+}
+
+.grid div:nth-child(odd){
+	background-color:blueviolet;
+}
