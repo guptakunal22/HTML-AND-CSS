@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background: blue;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+#content{
+    width: 1024px;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+}
