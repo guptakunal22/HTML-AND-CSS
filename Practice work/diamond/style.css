@@ -1,0 +1,270 @@
+*{
+    transition: 1s;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+}
+.fullwrap {
+    /* position: relative; */
+    width: 405px;
+    height: 405px;
+    border: 2px dashed;
+    margin: 110px 100px;
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(45deg);
+    /* background: rgba(1,11,1,0.5); */
+    display: block; 
+    float: left;
+}
+.fullwrap .wrap{
+    /* position: relative; */
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    /* margin: 100px 100px; */
+    border-radius: 5px;
+    perspective: 200px;
+    overflow: hidden;
+}
+
+.fullwrap2{
+    /* position: relative; */
+    width: 205px;
+    height: 205px;
+    border: 1px solid transparent;
+    margin: 60px 30px 50px -100px;
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(45deg);
+    /* background: rgba(1,11,1,0.5); */
+    display: block; 
+    float: left;
+}
+
+.fullwrap2 .wrap{
+    /* position: relative; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    /* margin: 100px 100px; */
+    border-radius: 5px;
+    padding: 0px;
+    perspective: 200px;
+    overflow: hidden;
+}
+.fullwrap3{
+    /* position: relative; */
+    width: 205px;
+    height: 205px;
+    border: 1px solid transparent;
+    margin: 220px -20px 0 -102.5px;
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(45deg);
+    /* background: rgba(1,11,1,0.5); */
+    display: block; 
+    float: left;
+}
+
+.fullwrap3 .wrap{
+    /* position: relative; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    /* margin: 100px 100px; */
+    border-radius: 5px;
+    padding: 0px;
+    perspective: 200px;
+    overflow: hidden;
+}
+
+.fullwrap4{
+    /* position: relative; */
+    width: 205px;
+    height: 205px;
+    border: 1px solid transparent;
+    margin: 60px 0 20px -50px;
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(45deg);
+    /* background: rgba(1,11,1,0.5); */
+    display: block; 
+    float: left;
+}
+
+.fullwrap4 .wrap{
+    /* position: relative; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    /* margin: 100px 100px; */
+    border-radius: 5px;
+    padding: 0px;
+    perspective: 200px;
+    overflow: hidden;
+}
+
+.fullwrap5{
+    /* position: relative; */
+    width: 205px;
+    height: 205px;
+    border: 1px solid transparent;
+    margin: 220px -20px 0 -72.5px;
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(45deg);
+    /* background: rgba(1,11,1,0.5); */
+    display: block; 
+    float: left;
+}
+
+.fullwrap5 .wrap{
+    /* position: relative; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    /* margin: 100px 100px; */
+    border-radius: 5px;
+    padding: 0px;
+    perspective: 200px;
+    overflow: hidden;
+}
+.fullwrap6{
+    /* position: relative; */
+    width: 205px;
+    height: 205px;
+    border: 1px solid transparent;
+    margin: 60px 0 20px -50px;
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(45deg);
+    /* background: rgba(1,11,1,0.5); */
+    display: block; 
+    float: left;
+}
+
+.fullwrap6 .wrap{
+    /* position: relative; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    /* margin: 100px 100px; */
+    border-radius: 5px;
+    padding: 0px;
+    perspective: 200px;
+    overflow: hidden;
+}
+.fullwrap7{
+    /* position: relative; */
+    width: 205px;
+    height: 205px;
+    border: 1px solid transparent;
+    margin: -270px 0px 20px 525px;
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(45deg);
+    /* background: rgba(1,11,1,0.5); */
+    display: block; 
+    float: left;
+}
+
+.fullwrap7 .wrap{
+    /* position: relative; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    /* margin: 100px 100px; */
+    border-radius: 5px;
+    padding: 0px;
+    perspective: 200px;
+    overflow: hidden;
+}
+.fullwrap8{
+    /* position: relative; */
+    width: 205px;
+    height: 205px;
+    border: 1px solid transparent;
+    margin: -270px 0px 20px 840px;
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(45deg);
+    /* background: rgba(1,11,1,0.5); */
+    display: block; 
+    float: left;
+}
+
+.fullwrap8 .wrap{
+    /* position: relative; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    /* margin: 100px 100px; */
+    border-radius: 5px;
+    padding: 0px;
+    perspective: 200px;
+    overflow: hidden;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    /* margin-top: -20.5%;
+    margin-left: 20.5%; */
+    /* transform: rotate(-45deg); */
+    background: #ccc;
+    position: relative;
+    /* transform: rotateX(0deg); */
+    transform-style: preserve-3d;
+    text-align: center;
+
+}
+.fface, .bface{
+    width: 100%;
+    height: 100%;   
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+.fface img{
+    width: 141%;
+    height: 141%;
+    margin-top: -20.5%;
+    margin-left: -20.5%;
+    transform: rotate(-45deg);
+}
+.fface{
+    z-index: 111;
+     background: transparent;
+    transform: rotateX(0deg);
+}
+.bface{
+    background: green;
+    transform: rotateX(180deg);
+}
+.wrap:hover .card{
+    transform: rotateX(180deg);
+}
+.clearfix{
+    clear: both;
+}
+/* 
+#scaleEffect{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+     transition: 1s; 
+ }
+#scaleEffect img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#scaleEffect:hover img{
+    transform: scale(1.2,1.2);
+} */
